@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css bootrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card">
+                    <h1 class="card-title text-center dangki">Đăng ký tài khoản</h1>
+                    <div class="card-body py-md-4">
+                        <form action="/register" method="POST" novalidate>
+                            <div class="form-group">
+                                <input type="text" name="username" class="form-control" id="name" placeholder="Tên">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="password" class="form-control" id="password"
+                                    placeholder="Mật khẩu">
+                            </div>
+                            <!-- <div class="form-group">
+                                <input type="password" class="form-control" id="confirm-password"
+                                    name="confirm-password" placeholder="Xác nhận mật khẩu">
+                            </div> -->
+                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                <a href="login.html">Đăng nhập</a>
+                                <button class="btn btn-primary">Tạo tài khoản</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

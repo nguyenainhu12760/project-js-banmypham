@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- codepen -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+      integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+      integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+      integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/productdetail.css" />
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <script src="/js/product.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <div class="bannertimkiem">
+          <div class="logo">
+            <img src="images/logo.png" alt="" />
+          </div>
+          <div class="search">
+            <input
+              type="search"
+              id="search"
+              placeholder="   Tìm kiếm sản phẩm..."
+              class="input-search"
+            />
+            <button type="button"><i class="fa fa-search"></i></button>
+          </div>
+          <div class="users">
+            <a href="login.html">
+              <img src="images/user.png" alt="" />
+            </a>
+          </div>
+          <div class="cart">
+            <a href="checkout.html">
+              <img src="images/cart.png" alt="" data-target="#cart" /><span
+                class="total-count"
+              ></span>
+            </a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="banner-content">
+            <a href="index.html">Trang chủ</a>
+            <a href="#">Giới thiệu</a>
+            <a href="productdetail.html">Sản phẩm</a>
+            <a href="#">Khuyến mãi hot</a>
+            <a href="#">Liên hệ</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="boxleft">
+      <div class="xzoom-container">
+        <img
+          src="images/sp1.jpg"
+          class="xzom"
+          xorigibal="./images/sp1.jpg"
+          alt=""
+        />
+        <div class="xzoom-thumbs">
+          <a href="./images/sp1.jpg">
+            <img class="xzoom-gallery" src="images/sp1.jpg" alt="" />
+          </a>
+          <a href="./images/sp1.jpg">
+            <img class="xzoom-gallery" src="images/sp1.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="boxright">
+      <p class="texttieude">Masscra lâu trôi Mayberline</p>
+      <p class="textnameth">Thương hiệu: <span>Mayberline</span></p>
+      <p class="texttinhtrang">Tình trạng: <span>Còn hàng</span></p>
+      <p class="textgia">278.000 vnđ</p>
+      <p class="textthongtin">
+        Gel Dưỡng Nâng Tông Da & Tinh Chất Clinique iD: Dramatically Different
+        Moisturizing Tone-Up Gel + Active Cartridge Concentrate là dòng sản phẩm
+        dưỡng da "cá nhân hóa" độc đáo của thương hiệu dược mỹ phẩm Clinique nổi
+        tiếng từ Mỹ, với sự kết hợp của Gel Dưỡng Ẩm Nâng Tông Da Dramatically
+        Different Moisturizing Tone-Up Gel và Tinh Chất Clinique Active
+        Cartridge Concentrate tùy chỉnh cho từng loại da & vấn đề về da, giúp
+        mang lại hiệu quả 3 trong 1: Cấp Ẩm + Cải Thiện Vấn Đề Da + Làm Sáng &
+        Nâng Tông Da.
+      </p>
+      <a
+        href="#"
+        data-name="Orange"
+        data-price="0.5"
+        class="add-to-cart btn btn-danger"
+        ><button
+          type="button"
+          class="btn btn-danger"
+          data-bs-toggle="modal"
+          data-bs-target="#cart"
+        >
+          Thêm vào giỏ hàng
+        </button>
+      </a>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="cart"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="show-cart table"></table>
+              <div>Total price: $<span class="total-cart"></span></div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <a href="checkout.html">
+                <button type="button" class="btn btn-danger">Order now</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="float"></div>
+    <div class="mota">
+      <a href="#">
+        <p class="motasp">Mô tả sản phẩm</p>
+      </a>
+      <p class="textmotasp">
+        Trên thị trường ngày nay, có rất nhiều loại kem lót khác nhau,với những
+        tính năng đa dạng phù hợp cho mọi loại da. Tuy nhiên, việc chọn lựa kem
+        lót sao cho phù hợp và tốt cho da cũng không phải dễ dàng. Kem lót tốt
+        là phải đảm bảo khi sử dụng phải hoàn toàn đồng nhất với màu da. Nếu kem
+        lót trở nên bóng loáng trơn tuột hay hiện rõ một khác da thì đó không
+        phải là kem lót tốt. Màu sắc của kem lót ưa chuộng nhất thường là màu da
+        vàng và màu kem. Đây là hai màu tôn lên sắc da hiệu quả nhất. Nên dùng
+        loại có chất dưỡng ẩm nhẹ. Mỏng, nhẹ, trong suốt là đặc trưng vốn có của
+        kem lót, vì thế bạn đừng cố tạo màu hay pha trộn các hỗn hợp màu của kem
+        lót lại với nhau. Khi đi mua kem lót, bạn không nên nhìn vào màu sắc qua
+        các lọ đựng kem. Hãy chấm một chấm nhỏ tán đều ở má, đợi ít phút và quan
+        sát. Nếu kết quả cho bạn thấy hài lòng thì hãy chọn mua. Một số kem lót
+        mới còn sử dụng thêm tinh chất bạc hà làm da dịu mát và tạo cảm giác nhẹ
+        nhàng.
+      </p>
+    </div>
+
+    <div class="footer">
+      <div class="ft-menu">
+        <div class="cot">
+          <div class="box-ftmenu">
+            <div class="title">SHOP</div>
+            <div class="ftmenu">
+              <ul>
+                <li>
+                  <a href="#">WOMEN </a>
+                </li>
+                <li>
+                  <a href="#">MENS </a>
+                </li>
+                <li>
+                  <a href="#">DIVIDED </a>
+                </li>
+                <li>
+                  <a href="#">KIDS </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cot">
+          <div class="box-ftmenu">
+            <div class="title">CORPORATE INFO</div>
+            <div class="ftmenu">
+              <ul>
+                <li>
+                  <a href="#">Career at H&M </a>
+                </li>
+                <li>
+                  <a href="#">About H&M group </a>
+                </li>
+                <li>
+                  <a href="#">Sustainability </a>
+                </li>
+                <li>
+                  <a href="#">Press </a>
+                </li>
+                <li>
+                  <a href="#">Investor relations </a>
+                </li>
+                <li>
+                  <a href="#">Investor relations </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cot">
+          <div class="box-ftmenu">
+            <div class="title">HELP</div>
+            <div class="ftmenu">
+              <ul>
+                <li>
+                  <a href="#">WOMEN </a>
+                </li>
+                <li>
+                  <a href="#">MENS </a>
+                </li>
+                <li>
+                  <a href="#">DIVIDED </a>
+                </li>
+                <li>
+                  <a href="#">KIDS </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cot">
+          <div class="box-ftmenu">
+            <div class="title">Sign up for</div>
+            <div class="ftmenu">
+              <ul>
+                <li>
+                  <a href="#">WOMEN </a>
+                </li>
+                <li>
+                  <a href="#">MENS </a>
+                </li>
+                <li>
+                  <a href="#">DIVIDED </a>
+                </li>
+                <li>
+                  <a href="#">KIDS </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <div class="ft-logo">
+        <div class="cot">
+          <div class="ct ct-l">HENNES</div>
+          <div class="ct ct-logo">
+            <a href="#"><img src="images/logo.png" alt="logo footer" /></a>
+          </div>
+          <div class="ct ct-r">MAURTIZ</div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/giohang.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/reset.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <div class="bannertimkiem">
+          <div class="logo">
+            <img src="images/logo.png" alt="" />
+          </div>
+          <div class="search">
+            <input
+              type="search"
+              id="search"
+              placeholder="   Tìm kiếm sản phẩm..."
+              class="input-search"
+            />
+            <button type="button"><i class="fa fa-search"></i></button>
+          </div>
+          <div class="users">
+            <a href="login.html">
+              <img src="images/user.png" alt="" />
+            </a>
+          </div>
+          <div class="cart">
+            <a id="handleSetPopUp">
+              <img src="images/cart.png" alt="" />
+            </a>
+          </div>
+          <div class="modalCart" id="popUpCart">
+            <p class="text-end" id="closePopUp">
+              <i class="fa fa-times"></i>
+            </p>
+            <h1 style="color: brown">Giỏ hàng</h1>
+            <form id="cartContent"></form>
+            <p style="margin-top: 15px; color: #474040; font-weight: bold">
+              TỔNG TIỀN: <span id="total"></span>
+            </p>
+            <p class="text-end">
+              <button
+                type="button"
+                class="btn btn-warning my-4"
+                id="handleCheckOut"
+              >
+                Đặt hàng
+              </button>
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="banner-content">
+            <a href="index.html">Trang chủ</a>
+            <a href="#">Giới thiệu</a>
+            <a href="productdetail.html">Sản phẩm</a>
+            <a href="#">Khuyến mãi hot</a>
+            <a href="#">Liên hệ</a>
+          </div>
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="images/banner.jpg" alt="" />
+            </div>
+            <div class="mySlides fade">
+              <img src="images/banner1.jpg" alt="" />
+            </div>
+            <div class="mySlides fade">
+              <img src="images/banner2.jpg" alt="" />
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div style="text-align: center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="boxmain">
+      <div class="thuonghieu">
+        <p class="textthuonghieu">
+          THƯƠNG HIỆU<br />
+          <span>Nổi bật</span>
+        </p>
+        <div class="brand">
+          <a href="#">
+            <div class="brand1">
+              <img src="images/brand_1.png" alt="" />
+            </div>
+          </a>
+          <a href="#">
+            <div class="brand1">
+              <img src="images/brand_2.png" alt="" />
+            </div>
+          </a>
+          <a href="#">
+            <div class="brand1">
+              <img src="images/brand_3.png" alt="" />
+            </div>
+          </a>
+          <div class="float"></div>
+        </div>
+      </div>
+      <div class="spbanchay">
+        <a href="listproduct.html"
+          ><p class="textspbanchay">SẢN PHẨM BÁN CHẠY</p></a
+        >
+        <div class="spo" id="sanphambanchay"></div>
+        <div class="spt">
+          <div class="sp2">
+            <img src="images/spnb.jpg" alt="" />
+            <a href="#" class="textspnb">SẢN PHẨM <br />NỔI BẬT</a>
+            <div class="xemthem"><a href="#" class="xemthem1">Xem thêm</a></div>
+          </div>
+          <div id="sanphamnoibat"></div>
+        </div>
+        <div class="spt1">
+          <div class="sp2">
+            <img src="images/sph.jpg" alt="" />
+            <a href="listproduct.html" class="textspnb">SẢN PHẨM <br />HOT</a>
+            <div class="xemthem"><a href="#" class="xemthem1">Xem thêm</a></div>
+          </div>
+          <div id="sanphamhot"></div>
+        </div>
+        <div class="float"></div>
+        <div class="ttkm">
+          <a href="#" class="texttkm">TIN TỨC & KHUYẾN MÃI</a>
+        </div>
+        <div class="spth">
+          <div class="sp4">
+            <img src="images/1.jpg" alt="" />
+            <a href="#" class="textt1"
+              >Mách cho bạn bí quyết trị nám tại nhà hiệu quả nhất</a
+            >
+            <p class="nd">Đăng bởi: Nguyễn Ái Như</p>
+            <hr />
+            <p class="ndd">
+              Da chúng ta dễ bị thâm nám là do tiếp xúc với ánh mặt trời thường
+              xuyên, chế độ ăn uống và chăm sóc da chưa hợp lý...
+            </p>
+          </div>
+          <div class="sp4">
+            <img src="images/2.jpg" alt="" />
+            <a href="#" class="textt1"
+              >Mách cho bạn bí quyết trị nám tại nhà hiệu quả nhất</a
+            >
+            <p class="nd">Đăng bởi: Nguyễn Ái Như</p>
+            <hr />
+            <p class="ndd">
+              Da chúng ta dễ bị thâm nám là do tiếp xúc với ánh mặt trời thường
+              xuyên, chế độ ăn uống và chăm sóc da chưa hợp lý...
+            </p>
+          </div>
+          <div class="sp4">
+            <img src="images/3.jpg" alt="" />
+            <a href="#" class="textt1"
+              >Mách cho bạn bí quyết trị nám tại nhà hiệu quả nhất</a
+            >
+            <p class="nd">Đăng bởi: Nguyễn Ái Như</p>
+            <hr />
+            <p class="ndd">
+              Da chúng ta dễ bị thâm nám là do tiếp xúc với ánh mặt trời thường
+              xuyên, chế độ ăn uống và chăm sóc da chưa hợp lý...
+            </p>
+          </div>
+        </div>
+        <div class="float"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="ft-menu">
+        <div class="cot">
+          <div class="box-ftmenu">
+            <div class="title">SHOP</div>
+            <div class="ftmenu">
+              <ul>
+                <li>
+                  <a href="#">WOMEN </a>
+                </li>
+                <li>
+                  <a href="#">MENS </a>
+                </li>
+                <li>
+                  <a href="#">DIVIDED </a>
+                </li>
+                <li>
+                  <a href="#">KIDS </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cot">
+          <div class="box-ftmenu">
+            <div class="title">CORPORATE INFO</div>
+            <div class="ftmenu">
+              <ul>
+                <li>
+                  <a href="#">Career at H&M </a>
+                </li>
+                <li>
+                  <a href="#">About H&M group </a>
+                </li>
+                <li>
+                  <a href="#">Sustainability </a>
+                </li>
+                <li>
+                  <a href="#">Press </a>
+                </li>
+                <li>
+                  <a href="#">Investor relations </a>
+                </li>
+                <li>
+                  <a href="#">Investor relations </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cot">
+          <div class="box-ftmenu">
+            <div class="title">HELP</div>
+            <div class="ftmenu">
+              <ul>
+                <li>
+                  <a href="#">WOMEN </a>
+                </li>
+                <li>
+                  <a href="#">MENS </a>
+                </li>
+                <li>
+                  <a href="#">DIVIDED </a>
+                </li>
+                <li>
+                  <a href="#">KIDS </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cot">
+          <div class="box-ftmenu">
+            <div class="title">Sign up for</div>
+            <div class="ftmenu">
+              <ul>
+                <li>
+                  <a href="#">WOMEN </a>
+                </li>
+                <li>
+                  <a href="#">MENS </a>
+                </li>
+                <li>
+                  <a href="#">DIVIDED </a>
+                </li>
+                <li>
+                  <a href="#">KIDS </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <div class="ft-logo">
+        <div class="cot">
+          <div class="ct ct-l">
+            FACEBOOK
+            <a href="#" id="faceBook"
+              ><i
+                class="fa fa-facebook-square"
+                style="background-color: rgb(119, 119, 250)"
+              ></i
+            ></a>
+          </div>
+          <div class="ct ct-logo">
+            <a href="#"><img src="images/logo.png" alt="logo footer" /></a>
+          </div>
+          <a href="https://www.instagram.com/"
+            ><div class="ct ct-r">
+              instagram
+              <i
+                class="fa fa-instagram"
+                style="background-color: rgb(201, 67, 118)"
+              ></i></div
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/index.js"></script>
+</html>

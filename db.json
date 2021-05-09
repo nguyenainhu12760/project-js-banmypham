@@ -1,0 +1,389 @@
+{
+  "categories": [
+    {
+      "catalog_id": 1,
+      "id": 1,
+      "name": "Sản phẩm bán chạy"
+    },
+    {
+      "catalog_id": 2,
+      "id": 2,
+      "name": "Sản phẩm nổi bật"
+    },
+    {
+      "catalog_id": 3,
+      "id": 3,
+      "name": "Sản phẩm hot"
+    },
+    {
+      "catalog_id": 4,
+      "name": "nguyenainhu",
+      "id": 4
+    }
+  ],
+  "order_details": [
+    {
+      "order_id": 1,
+      "product_id": 1,
+      "quanlity": 1,
+      "unit_price": 250,
+      "catagories_name": "Sản phẩm bán chạy"
+    },
+    {
+      "order_id": 2,
+      "product_id": 2,
+      "quanlity": 1,
+      "unit_price": 150,
+      "catagories_name": "Sản phẩm bán chạy"
+    },
+    {
+      "order_id": 3,
+      "product_id": 3,
+      "quanlity": 1,
+      "unit_price": 50,
+      "catagories_name": "Sản phẩm hot"
+    },
+    {
+      "order_id": 4,
+      "product_id": 4,
+      "quanlity": 1,
+      "unit_price": 250,
+      "catagories_name": "Sản phẩm nổi bật"
+    },
+    {
+      "order_id": 5,
+      "product_id": 5,
+      "quanlity": 1,
+      "unit_price": 250,
+      "catagories_name": "Sản phẩm bán chạy"
+    },
+    {
+      "order_id": 6,
+      "product_id": 6,
+      "quanlity": 1,
+      "unit_price": 250,
+      "catagories_name": "Sản phẩm nổi bật"
+    },
+    {
+      "order_id": 7,
+      "product_id": 7,
+      "quanlity": 1,
+      "unit_price": 250,
+      "catagories_name": "Sản phẩm hot"
+    },
+    {
+      "order_id": 8,
+      "product_id": 8,
+      "quanlity": 1,
+      "unit_price": 420,
+      "catagories_name": "Sản phẩm nổi bật"
+    },
+    {
+      "order_id": 9,
+      "product_id": 9,
+      "quanlity": 1,
+      "unit_price": 220,
+      "catagories_name": "Sản phẩm hot"
+    },
+    {
+      "order_id": 10,
+      "product_id": 10,
+      "quanlity": 1,
+      "unit_price": 170,
+      "catagories_name": "Sản phẩm nổi bật"
+    }
+  ],
+  "orders": [
+    {
+      "detailUser": {
+        "name": "Nguyen Ai Nhu",
+        "address": "278 tô ki",
+        "phone": "0335866712"
+      },
+      "cart": {
+        "cart": [
+          {
+            "product": {
+              "id": "13",
+              "catalog_id": "2",
+              "name": "Sữa Tắm HATOMUGI ",
+              "brand": "HATOMUGI ",
+              "image": "../images/sp10.jpg",
+              "detail": "Dưỡng Sáng Da 800ml",
+              "status": "Còn hàng",
+              "price": "230000"
+            },
+            "quantity": 1
+          }
+        ],
+        "total": "230000"
+      },
+      "id": 6
+    },
+    {
+      "detailUser": {
+        "name": "Lại là Như đây",
+        "address": "123 quang trung",
+        "phone": "02112001"
+      },
+      "cart": {
+        "cart": [
+          {
+            "product": {
+              "id": "4",
+              "catalog_id": "1",
+              "name": "Kem lót Maybeline",
+              "brand": "Maybeline",
+              "image": "../images/sp8.jpg",
+              "detail": "Kem lót",
+              "status": "Còn hàng",
+              "price": "195000"
+            },
+            "quantity": 3
+          }
+        ],
+        "total": "585000"
+      },
+      "id": 7
+    },
+    {
+      "detailUser": {
+        "name": "Nguyễn Ái Như ",
+        "address": "quận 12, tphcm",
+        "phone": "0335866712"
+      },
+      "cart": {
+        "cart": [
+          {
+            "product": {
+              "id": "33",
+              "catalog_id": "1",
+              "name": "Nước Tẩy Trang Bioderma ",
+              "brand": " Bioderma",
+              "image": "../images/sp2.jpg",
+              "detail": "Dành Cho Da Nhạy Cảm 500ml Sensibio H2O",
+              "status": "Còn hàng",
+              "price": " 495000 "
+            },
+            "quantity": 1
+          }
+        ],
+        "total": "495000"
+      },
+      "id": 8
+    },
+    {
+      "detailUser": {
+        "name": "test",
+        "address": "123",
+        "phone": "123456"
+      },
+      "cart": {
+        "cart": [
+          {
+            "product": {
+              "id": "33",
+              "catalog_id": "1",
+              "name": "Nước Tẩy Trang Bioderma ",
+              "brand": " Bioderma",
+              "image": "../images/sp2.jpg",
+              "detail": "Dành Cho Da Nhạy Cảm 500ml Sensibio H2O",
+              "status": "Còn hàng",
+              "price": " 495000 "
+            },
+            "quantity": 2
+          },
+          {
+            "product": {
+              "id": "5",
+              "catalog_id": "2",
+              "name": "cushion missha",
+              "brand": "missha",
+              "image": "../images/sp4.jpg",
+              "detail": "Che phu khuyet diem",
+              "status": "Con hang",
+              "price": "2100000"
+            },
+            "quantity": 1
+          }
+        ],
+        "total": "3090000"
+      },
+      "id": 9
+    },
+    {
+      "detailUser": {
+        "name": "nhu nhu ",
+        "address": "123",
+        "phone": "1909202"
+      },
+      "cart": {
+        "cart": [
+          {
+            "product": {
+              "id": "32",
+              "catalog_id": "1",
+              "name": "Nước Tẩy Trang L'Oréal",
+              "brand": "L'Oréal",
+              "image": "../images/sp3.jpg",
+              "detail": "Dưỡng Ẩm Cho Da Thường, Khô 400ml",
+              "status": "Còn hàng",
+              "price": "189000"
+            },
+            "quantity": 2
+          },
+          {
+            "product": {
+              "id": "4",
+              "catalog_id": "1",
+              "name": "Kem lót Maybeline",
+              "brand": "Maybeline",
+              "image": "../images/sp8.jpg",
+              "detail": "Kem lót",
+              "status": "Còn hàng",
+              "price": "195000"
+            },
+            "quantity": 2
+          },
+          {
+            "product": {
+              "id": "33",
+              "catalog_id": "1",
+              "name": "Nước Tẩy Trang Bioderma ",
+              "brand": " Bioderma",
+              "image": "../images/sp2.jpg",
+              "detail": "Dành Cho Da Nhạy Cảm 500ml Sensibio H2O",
+              "status": "Còn hàng",
+              "price": " 495000 "
+            },
+            "quantity": 1
+          }
+        ],
+        "total": "1263000"
+      },
+      "id": 10
+    }
+  ],
+  "products": [
+    {
+      "id": "33",
+      "catalog_id": "1",
+      "name": "Nước Tẩy Trang Bioderma ",
+      "brand": " Bioderma",
+      "image": "../images/sp2.jpg",
+      "detail": "Dành Cho Da Nhạy Cảm 500ml Sensibio H2O",
+      "status": "Còn hàng",
+      "price": " 495000 "
+    },
+    {
+      "id": "32",
+      "catalog_id": "1",
+      "name": "Nước Tẩy Trang L'Oréal",
+      "brand": "L'Oréal",
+      "image": "../images/sp3.jpg",
+      "detail": "Dưỡng Ẩm Cho Da Thường, Khô 400ml",
+      "status": "Còn hàng",
+      "price": "189000"
+    },
+    {
+      "id": "5",
+      "catalog_id": "2",
+      "name": "cushion missha",
+      "brand": "missha",
+      "image": "../images/sp4.jpg",
+      "detail": "Che phu khuyet diem",
+      "status": "Con hang",
+      "price": "2100000"
+    },
+    {
+      "id": "6",
+      "name": "ke may innisfree",
+      "brand": "innisfree",
+      "image": "../images/sp5.jpg",
+      "detail": "ke may",
+      "status": "con hang",
+      "price": "100000",
+      "catalog_id": 2
+    },
+    {
+      "id": "1",
+      "catalog_id": "2",
+      "name": "Tẩy da chết paula's choice",
+      "brand": "paula's choice",
+      "image": "../images/sp6.jpg",
+      "detail": "Tay da chet",
+      "status": "Con hang",
+      "price": "890000"
+    },
+    {
+      "id": "7",
+      "catalog_id": "2",
+      "name": "Phấn phủ perfect driary",
+      "brand": "perfect driary",
+      "image": "../images/sp7.jpg",
+      "detail": "Che phủ",
+      "status": "Còn hàng",
+      "price": "320000"
+    },
+    {
+      "id": "4",
+      "catalog_id": "1",
+      "name": "Kem lót Maybeline",
+      "brand": "Maybeline",
+      "image": "../images/sp8.jpg",
+      "detail": "Kem lót",
+      "status": "Còn hàng",
+      "price": "195000"
+    },
+    {
+      "id": "9",
+      "catalog_id": "3",
+      "name": "Sữa Dưỡng Thể Vaseline ",
+      "brand": "Vaseline ",
+      "image": "../images/sp9.jpg",
+      "detail": "Dưỡng trắng sáng da",
+      "status": "Còn hàng",
+      "price": "147000"
+    },
+    {
+      "id": "13",
+      "catalog_id": "2",
+      "name": "Sữa Tắm HATOMUGI ",
+      "brand": "HATOMUGI ",
+      "image": "../images/sp10.jpg",
+      "detail": "Dưỡng Sáng Da 800ml",
+      "status": "Còn hàng",
+      "price": "230000"
+    },
+    {
+      "id": "10",
+      "catalog_id": "3",
+      "name": "Sáp Dưỡng Môi Hồng Xinh Vaseline",
+      "brand": "Vaseline",
+      "image": "../images/sp11.jpg",
+      "detail": "Lip Therapy Rosy Lip",
+      "status": "Còn hàng",
+      "price": "70000"
+    },
+    {
+      "id": "17",
+      "catalog_id": "3",
+      "name": "Nước Hoa Hồng Some By Mi",
+      "brand": "Some By Mi ",
+      "image": "../images/sp12.jpg",
+      "detail": "Cho Da Mụn 150ml",
+      "status": "Còn hàng",
+      "price": "405000"
+    },
+    {
+      "id": "12",
+      "catalog_id": "1",
+      "name": "Nước Tẩy Trang Bioderma ",
+      "brand": "thu",
+      "image": "",
+      "detail": "nhu",
+      "status": "het hang",
+      "price": "123"
+    }
+  ]
+}

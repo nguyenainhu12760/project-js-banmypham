@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+
+<body>
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-sm-5 mx-auto">
+                <div class="card card-body">
+                    <h2 class="text-center dangki">Đăng nhập</h2>
+                    <form action="/login" method="POST">
+                        <div class="form-group mt-4">
+                            <label for="_rname">Name</label>
+                            <input type="text" name="username" id="_rname" class="form-control" placeholder="Name"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="_pass">Password</label>
+                            <input type="password" name="password" id="_pass" class="form-control"
+                                placeholder="Password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                    </form>
+                    <p class="small-xl pt-3 text-center">
+                        <span class="text-muted">Bạn chưa có tài khoản?</span>
+                        <a href="register.html">Đăng kí</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

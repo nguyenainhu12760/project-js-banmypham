@@ -1,0 +1,38 @@
+header nav .nav-content a {
+	font-size: 20px;
+	text-decoration: none;
+	color: gray;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+	line-height: 55px;
+	padding: 15px;
+
+	/* margin-top:20px; */
+	/* width:100%;
+		height:300px;
+		background-color: rgb(82, 31, 44); */
+}
+
+.content {
+	margin-top: 50px;
+}
+
+.modal-body label {
+	width: 30%;
+}
+
+/* body {
+	background-color: rgb(236, 232, 233);
+} */
+
+.nav-content {
+	width: 100%;
+	height: 60px;
+	background-color: #faf1d4d7;
+	margin-top: 20px;
+}
+
+body {
+	background-color: #FFEFBA;
+	background-image: linear-gradient(315deg, #FFEFBA 0%, #FFFFFF 70%);
+}
